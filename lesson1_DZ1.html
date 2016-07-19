@@ -1,0 +1,8 @@
+<meta charset="utf-8">
+
+<script>
+	var KursDollar = +prompt("Введите текущий курс доллара");
+	var KursEuro = +prompt("Введите текущий курс евро");
+	var Rubl = +prompt("Введите сумму в рублях");
+	var Exch = alert("На эту сумму можно купить: " + Math.round(Rubl/KursDollar * 100)/100 + " долларов  или " + Math.round(Rubl/KursEuro*100)/100 + " евро");
+</script>

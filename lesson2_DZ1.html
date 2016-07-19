@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<script>
+	var summa = +prompt("Введите сумму вклада");
+	var proc = +prompt("Введите процент по вкладу");
+	i=0;
+	while(i<5)
+		{ var summa = Math.round((summa * proc/100 + summa)*100)/100;
+		i=i+1;
+			if (i==1) {
+			alert ("Размер вклада через " +i + " год "+summa+ "руб.");
+		    }
+			else {
+					if (i==5) {
+						alert ("Размер вклада через " +i + " лет "+summa+ "руб.");
+					}
+					
+					else{
+					alert ("Размер вклада через " +i + " года "+summa+ "руб.");
+				    }
+			
+			}
+		}
+
+</script>
